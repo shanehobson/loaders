@@ -27,3 +27,4 @@ Alex word vomit
 - I very much like the frontend tool stack you outlined- I also think we should consider using a React component library.  I REALLY like Material UI https://material-ui.com/
 - for collab I think we can get most everything done through Google Hangouts and the occasional phone call/screenshare
 
+Card
