@@ -1,0 +1,14 @@
+.NavBar-navBar {
+    flex-grow: 1
+}
+.NavBar-flex {
+    flex: 1
+}
+.NavBar-navLinks {
+    margin-right: 20
+}
+.NavBar-navLink {
+    font-size: 14
+}
+
+  
