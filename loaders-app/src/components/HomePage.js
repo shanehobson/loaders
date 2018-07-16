@@ -8,12 +8,14 @@ const spinners = [{prop: 'exampleSpinnerProp'},
   {prop: 'exampleSpinnerProp'}, 
   {prop: 'exampleSpinnerProp'}];
 
-export default () => (
+const HomePage = () => (
   <div>
     <NavBar />
     <SpinnerList spinners={spinners}/>
   </div>
 );
+
+export default HomePage;
 
 
 
