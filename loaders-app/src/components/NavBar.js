@@ -21,9 +21,9 @@ const NavBar = () => {
                         </Typography>
                     </Hidden>
                     <div className='NavBar-navLinks'>
-                        <Button color='inherit' className='NavBar-navLink'>Home</Button>
-                        <Button color='inherit' className='NavBar-navLink'>About</Button>
-                        <Button color='inherit' className='NavBar-navLink'>Contact</Button>
+                        <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>Home</Typography></Button>
+                        <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>About</Typography></Button>
+                        <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>Contact</Typography></Button>
                     </div>
                 </Toolbar>
             </AppBar>
