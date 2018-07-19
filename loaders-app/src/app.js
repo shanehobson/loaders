@@ -3,14 +3,19 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import AppRouter, { history } from './routers/AppRouter';
 import configureStore from './store/configureStore';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import LoadingPage from './components/LoadingPage';
+import customMuiTheme from './themes/theme.js';
 
 const store = configureStore();
+
 const jsx = (
   <Provider store={store}>
-    <AppRouter />
+    <MuiThemeProvider theme={customMuiTheme}>
+      <AppRouter />
+    </MuiThemeProvider>
   </Provider>
 );
 
