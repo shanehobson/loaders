@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-react-app",
+  "name": "loaders-app",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "Alex Totheroh, Shane Hobson",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack",

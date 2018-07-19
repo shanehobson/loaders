@@ -9,48 +9,21 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Hidden from '@material-ui/core/Hidden';
 
-
-const styles = {
-  root: {
-    flexGrow: 1,
-  },
-  flex: {
-    flex: 1,
-  },
-  menuButton: {
-    marginLeft: 20,
-    marginRight: 20,
-  },
-  navLinks: {
-    marginRight: 20,
-  },
-  navLink: {
-      fontSize: 14,
-  },
-  list: {
-    width: 250,
-  },
-  fullList: {
-    width: 'auto',
-  },
-};
-
-function NavBar(props) {
-  const { classes } = props;
+const NavBar = () => {
   return (
     <div>
-        <div className={classes.root}>
-            <AppBar position="static">
+        <div className='NavBar-navBar'>
+            <AppBar position='static'>
                 <Toolbar>
                     <Hidden xsDown>
-                        <Typography variant="display1" color="inherit" className={classes.flex}>
+                        <Typography variant='display1' color='inherit' className='NavBar-flex'>
                             Website Icon
                         </Typography>
                     </Hidden>
-                    <div className={classes.navLinks}>
-                        <Button color="inherit" className={classes.navLink}>Home</Button>
-                        <Button color="inherit" className={classes.navLink}>About</Button>
-                        <Button color="inherit" className={classes.navLink}>Contact</Button>
+                    <div className='NavBar-navLinks'>
+                        <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>Home</Typography></Button>
+                        <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>About</Typography></Button>
+                        <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>Contact</Typography></Button>
                     </div>
                 </Toolbar>
             </AppBar>
@@ -59,6 +32,7 @@ function NavBar(props) {
   );
 }
 
-export default withStyles(styles)(NavBar);
+export default NavBar;
+
 
 

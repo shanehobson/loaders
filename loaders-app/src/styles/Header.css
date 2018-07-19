@@ -1,0 +1,23 @@
+.Header-headerContainer {
+    background-color: #454545;
+    min-height: 300px;
+    padding: 0 4rem;
+}
+.Header-gridContainer {
+    padding-top: 6rem;
+}
+.Header-headerTitle {
+    color: #eaeaea;
+}
+.Header-headerSubtitle {
+    padding-top: 3rem;
+    text-align: center;
+}
+@media (max-width: 45rem) {
+    .Header-headerSpan {
+        font-size: 5rem;
+    }
+    .Header-gridContainer {
+        padding-top: 3rem;
+    }
+}
