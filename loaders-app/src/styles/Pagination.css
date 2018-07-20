@@ -1,0 +1,27 @@
+.react-paginate ul {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.paginate-container li {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.paginate-container li:hover {
+    color: #009688;
+}
+
+.paginate-container .break-me a {
+    cursor: default;
+    text-decoration: none;
+}
+
+.paginate-container .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+

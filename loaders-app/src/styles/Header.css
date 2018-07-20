@@ -18,6 +18,9 @@
     .Header-headerSpan {
         font-size: 5rem;
     }
+    .Header-headerTitle {
+        font-size: 5rem;
+    }
     .Header-gridContainer {
         padding-top: 3rem;
     }
