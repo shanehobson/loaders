@@ -7,8 +7,11 @@ class SpinnerList extends Component {
 
     render() {
         return (
-            this.props.spinners.map((spinner) =>
+            <div className='container'>
+            {this.props.spinners.map((spinner) =>
                 <Spinner spinnerJson={spinner} /> )
+            }
+            </div>
         );
     }
 

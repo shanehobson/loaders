@@ -7,7 +7,7 @@ const Header = () => (
         <Grid container direction='column' justify='space-around' alignItems='center' className='Header-gridContainer'>
             <Grid item>
                 <Typography variant='display4' color='primary'>
-                    <span className='Header-headerSpan'>LoaderGallery</span>.com
+                    <span className='Header-headerSpan'>LoaderGallery</span><span className='Header-headerTitle'>.com</span>
                 </Typography>
             </Grid>
             <Grid item className='Header-headerSubtitle'>
