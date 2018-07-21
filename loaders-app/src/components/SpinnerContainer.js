@@ -31,21 +31,23 @@ class SpinnerContainer extends Component {
     render() {
         
         //todo I know there's a good shortcut in JS to assign all these at once
-        const spinnerDTO = this.props.spinnerDTO;
-        const spinnerHTML = spinnerDTO.html;
-        const spinnerCSS = spinnerDTO.css;
-        const spinnerJS = spinnerDTO.javascript;
+        // const spinnerDTO = this.props.spinnerDTO;
+        // const spinnerHTML = spinnerDTO.html;
+        // const spinnerCSS = spinnerDTO.css;
+        // const spinnerJS = spinnerDTO.javascript;
+
+        //I think this is what you're talking about - Shane:
+        const { spinnerComponent, html: spinnerHTML, css: spinnerCSS, javascript: spinnerJS } = this.props.spinnerDTO;
 
         return (
             <div>
                 <Card className='SpinnerContainer-spinnerContainer' raised={true} onClick={this.handleContainerClicked} >
-                    {spinnerDTO.spinnerComponent}
+                    {spinnerComponent}
                 </Card>
                 <SpinnerSourceDialog open={this.state.spinnerSourceDialogOpen} spinnerHTML={spinnerHTML} spinnerCSS={spinnerCSS} spinnerJS={spinnerJS} onClose={this.handleClose} />
             </div>
         );
     }
-
 }
 
 SpinnerContainer.propTypes = {
