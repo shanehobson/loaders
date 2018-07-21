@@ -1,5 +1,5 @@
-.Spinner-spinnerContainer {
-    width: 250px;
+.SpinnerContainer-spinnerContainer {
+    display: inline-block;
     margin-top: 20px;
     margin-left: 20px;
     cursor: pointer;
