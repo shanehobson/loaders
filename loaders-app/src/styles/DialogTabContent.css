@@ -13,8 +13,6 @@
 }
 
 .DialogTabContent-codeTextContainer {
-    background-color: black;
-    color: green;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 11pt;
