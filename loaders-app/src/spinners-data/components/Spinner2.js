@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/styles.scss';
 
 const Spinner2 = () => (
-    <div class="spinner2">
-        <div class="cube1"></div>
-        <div class="cube2"></div>
+    <div className="spinner2">
+        <div className="cube1"></div>
+        <div className="cube2"></div>
     </div>
   );
   
