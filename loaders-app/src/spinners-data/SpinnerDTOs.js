@@ -22,7 +22,6 @@ import {
 
 import React from 'react';
 
-
 const spinnerDtoArray = [
   
   {
