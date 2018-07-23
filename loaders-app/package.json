@@ -43,6 +43,7 @@
   "devDependencies": {
     "cross-env": "5.0.5",
     "dotenv": "4.0.0",
+    "node-sass-json-importer": "^3.3.1",
     "webpack-dev-server": "2.5.1"
   }
 }

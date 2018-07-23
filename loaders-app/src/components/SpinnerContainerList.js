@@ -11,11 +11,14 @@ class SpinnerContainerList extends Component {
         return (
             <div className='container'>
                 <GridList cols={6}>
-                    {this.props.spinnerDtoArray.map((spinnerDTO) =>
-                        <GridListTile key={spinnerDTO.id}>
-                            <SpinnerContainer spinnerDTO={spinnerDTO} />
-                        </GridListTile>)
-                    }
+                    {this.props.spinnerDtoArray.map((spinnerDTO) => {
+                        console.log(spinnerDTO);
+                        return (
+                            <GridListTile key={spinnerDTO.id}>
+                                <SpinnerContainer spinnerDTO={spinnerDTO} />
+                            </GridListTile>
+                        )}
+                    )}
                 </GridList>
             </div>
         );

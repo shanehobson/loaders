@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const jsonImporter = require('node-sass-json-importer');
 
 module.exports = (env) => {
   const CSSExtract = new ExtractTextPlugin('styles.css');
@@ -29,7 +30,8 @@ module.exports = (env) => {
             {
               loader: 'sass-loader',
               options: {
-                sourceMap: true
+                sourceMap: true,
+                importer: jsonImporter
               }
             }
           ]
