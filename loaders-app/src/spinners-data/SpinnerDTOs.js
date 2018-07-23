@@ -62,6 +62,34 @@ import {
   spinner9Javascript
 } from './source/Spinner9Source.js';
 
+import Spinner10 from './components/Spinner10.js';
+import {
+  spinner10HTML,
+  spinner10CSS,
+  spinner10Javascript
+} from './source/Spinner10Source.js';
+
+import Spinner11 from './components/Spinner11.js';
+import {
+  spinner11HTML,
+  spinner11CSS,
+  spinner11Javascript
+} from './source/Spinner11Source.js';
+
+import Spinner12 from './components/Spinner12.js';
+import {
+  spinner12HTML,
+  spinner12CSS,
+  spinner12Javascript
+} from './source/Spinner12Source.js';
+
+import Spinner13 from './components/Spinner13.js';
+import {
+  spinner13HTML,
+  spinner13CSS,
+  spinner13Javascript
+} from './source/Spinner13Source.js';
+
 import React from 'react';
 
 const spinnerDtoArray = [
@@ -137,35 +165,39 @@ const spinnerDtoArray = [
     css: spinner9CSS,
     javascript: spinner9Javascript
   },
-  //from here on, these are just fillers to test grid layout.
+  
   {
     id: 10, 
-    spinnerComponent:  <Spinner1 />,
-    html: spinner1HTML,
-    css: spinner1CSS,
-    javascript: spinner1Javascript
+    spinnerComponent:  <Spinner10 />,
+    html: spinner10HTML,
+    css: spinner10CSS,
+    javascript: spinner10Javascript
   }, 
+  
   {
     id: 11, 
-    spinnerComponent:  <Spinner1 />,
-    html: spinner1HTML,
-    css: spinner1CSS,
-    javascript: spinner1Javascript
+    spinnerComponent:  <Spinner11 />,
+    html: spinner11HTML,
+    css: spinner11CSS,
+    javascript: spinner11Javascript
   }, 
+ 
   {
     id: 12, 
-    spinnerComponent:  <Spinner1 />,
-    html: spinner1HTML,
-    css: spinner1CSS,
-    javascript: spinner1Javascript
+    spinnerComponent:  <Spinner12 />,
+    html: spinner12HTML,
+    css: spinner12CSS,
+    javascript: spinner12Javascript
   }, 
+  
   {
     id: 13, 
-    spinnerComponent:  <Spinner1 />,
-    html: spinner1HTML,
-    css: spinner1CSS,
-    javascript: spinner1Javascript
+    spinnerComponent:  <Spinner13 />,
+    html: spinner13HTML,
+    css: spinner13CSS,
+    javascript: spinner13Javascript
   }, 
+   //from here on, these are just fillers to test grid layout.
   {
     id: 14, 
     spinnerComponent:  <Spinner1 />,
