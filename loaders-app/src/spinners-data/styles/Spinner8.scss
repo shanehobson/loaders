@@ -14,8 +14,8 @@
     height: 46px;
     margin: 1px;
     border-radius: 50%;
-    border: 3px solid $spinner-color;
-    border-color: $spinner-color transparent $spinner-color transparent;
+    border: 3px solid map-get($colors, spinnerColor);
+    border-color: map-get($colors, spinnerColor) transparent map-get($colors, spinnerColor) transparent;
     animation: spinner8 1.2s linear infinite;
   }
   @keyframes spinner8 {

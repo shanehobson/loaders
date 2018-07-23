@@ -7,7 +7,7 @@
 }
   
 .spinner3 > div {
-    background-color: $spinner-color;
+    background-color: map-get($colors, spinnerColor);
     height: 100%;
     width: 6px;
     display: inline-block;

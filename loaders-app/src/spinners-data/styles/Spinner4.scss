@@ -16,7 +16,7 @@
 .spinner4::before {
     animation: 2s linear infinite spinner4;
     border: solid 3px #eee;
-    border-bottom-color: $spinner-color;
+    border-bottom-color: map-get($colors, spinnerColor);
     border-radius: 50%;
     content: "";
     height: 40px;

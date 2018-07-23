@@ -16,7 +16,7 @@
 .spinner6::before {
     animation: 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite spinner6;
     border: solid 3px #eee;
-    border-bottom-color: $spinner-color;
+    border-bottom-color: map-get($colors, spinnerColor);
     border-radius: 50%;
     content: "";
     height: 40px;

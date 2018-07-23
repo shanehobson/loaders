@@ -1,4 +1,5 @@
-import spinnerColor from '../SpinnerConfig.js';
+const spinnerConfig = require('../SpinnerConfig.json');
+const spinnerColor = spinnerConfig.colors.spinnerColor;
 
 export const spinner9HTML = `
     <div className="spinner9"></div>

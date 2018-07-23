@@ -12,10 +12,10 @@
     top: 30%;
     width: 46px;
     height: 46px;
-    border: 3px solid $spinner-color;
+    border: 3px solid map-get($colors, spinnerColor);
     border-radius: 50%;
     animation: spinner7 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: $spinner-color transparent transparent transparent;
+    border-color: map-get($colors, spinnerColor) transparent transparent transparent;
   }
   .spinner7 div:nth-child(1) {
     animation-delay: -0.45s;
