@@ -1,6 +1,8 @@
 import React from 'react';
 import {Component} from 'react';
 import PropTypes from 'prop-types';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
 import SpinnerContainer from './SpinnerContainer';
 
 class SpinnerContainerList extends Component {
@@ -8,10 +10,16 @@ class SpinnerContainerList extends Component {
     render() {
         return (
             <div className='container'>
-            {this.props.spinnerDtoArray.map((spinnerDTO) => {
-                console.log(spinnerDTO);
-                return <SpinnerContainer spinnerDTO={spinnerDTO} key={spinnerDTO.id} />;
-            })}
+                <GridList cols={6}>
+                    {this.props.spinnerDtoArray.map((spinnerDTO) => {
+                        console.log(spinnerDTO);
+                        return (
+                            <GridListTile key={spinnerDTO.id}>
+                                <SpinnerContainer spinnerDTO={spinnerDTO} />
+                            </GridListTile>
+                        )}
+                    )}
+                </GridList>
             </div>
         );
     }
