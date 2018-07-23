@@ -8,9 +8,10 @@ class SpinnerContainerList extends Component {
     render() {
         return (
             <div className='container'>
-            {this.props.spinnerDtoArray.map((spinnerDTO) =>
-                <SpinnerContainer spinnerDTO={spinnerDTO} key={spinnerDTO.id} />)
-            }
+            {this.props.spinnerDtoArray.map((spinnerDTO) => {
+                console.log(spinnerDTO);
+                return <SpinnerContainer spinnerDTO={spinnerDTO} key={spinnerDTO.id} />;
+            })}
             </div>
         );
     }
