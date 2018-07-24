@@ -97,6 +97,27 @@ import {
   spinner14Javascript
 } from './source/Spinner14Source.js';
 
+import Spinner15 from './components/Spinner15.js';
+import {
+  spinner15HTML,
+  spinner15CSS,
+  spinner15Javascript
+} from './source/Spinner15Source.js';
+
+import Spinner16 from './components/Spinner16.js';
+import {
+  spinner16HTML,
+  spinner16CSS,
+  spinner16Javascript
+} from './source/Spinner16Source.js';
+
+import Spinner17 from './components/Spinner17.js';
+import {
+  spinner17HTML,
+  spinner17CSS,
+  spinner17Javascript
+} from './source/Spinner17Source.js';
+
 import React from 'react';
 
 const spinnerDtoArray = [
@@ -212,28 +233,31 @@ const spinnerDtoArray = [
     css: spinner14CSS,
     javascript: spinner14Javascript
   }, 
-  //from here on, these are just fillers to test grid layout.
+ 
   {
     id: 15, 
-    spinnerComponent:  <Spinner1 />,
-    html: spinner1HTML,
-    css: spinner1CSS,
-    javascript: spinner1Javascript
+    spinnerComponent:  <Spinner15 />,
+    html: spinner15HTML,
+    css: spinner15CSS,
+    javascript: spinner15Javascript
   }, 
+   
   {
     id: 16, 
-    spinnerComponent:  <Spinner1 />,
-    html: spinner1HTML,
-    css: spinner1CSS,
-    javascript: spinner1Javascript
+    spinnerComponent:  <Spinner16 />,
+    html: spinner16HTML,
+    css: spinner16CSS,
+    javascript: spinner16Javascript
   }, 
+  
   {
     id: 17, 
-    spinnerComponent:  <Spinner1 />,
-    html: spinner1HTML,
-    css: spinner1CSS,
-    javascript: spinner1Javascript
+    spinnerComponent:  <Spinner17 />,
+    html: spinner17HTML,
+    css: spinner17CSS,
+    javascript: spinner17Javascript
   }, 
+  //from here on, these are just fillers to test grid layout.
   {
     id: 18, 
     spinnerComponent:  <Spinner1 />,
