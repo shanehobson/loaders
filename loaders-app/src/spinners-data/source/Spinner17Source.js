@@ -10,8 +10,8 @@ export const spinner17CSS = `
         color: official;
         display: inline-block;
         position: relative;
-        width: 64px;
-        height: 64px;
+        width: 90px;
+        height: 85px;
     }
     .spinner17 div {
         transform-origin: 32px 32px;
@@ -24,7 +24,7 @@ export const spinner17CSS = `
         top: 3px;
         left: 29px;
         width: 5px;
-        height: 6px;
+        height: 14px;
         border-radius: 50%;
         background: ${spinnerColor};
     }

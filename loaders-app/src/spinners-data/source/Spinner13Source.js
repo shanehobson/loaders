@@ -9,8 +9,8 @@ export const spinner13CSS = `
     .spinner13 {
         display: inline-block;
         position: relative;
-        width: 64px;
-        height: 64px;
+        width: 90px;
+        height: 82px;
     }
     .spinner13:after {
         content: " ";

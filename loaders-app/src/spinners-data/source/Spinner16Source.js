@@ -10,8 +10,8 @@ export const spinner16CSS = `
         color: official;
         display: inline-block;
         position: relative;
-        width: 64px;
-        height: 64px;
+        width: 90px;
+        height: 85px;
     }
     .spinner16 div {
         transform-origin: 32px 32px;
