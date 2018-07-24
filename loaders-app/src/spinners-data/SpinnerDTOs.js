@@ -90,6 +90,13 @@ import {
   spinner13Javascript
 } from './source/Spinner13Source.js';
 
+import Spinner14 from './components/Spinner14.js';
+import {
+  spinner14HTML,
+  spinner14CSS,
+  spinner14Javascript
+} from './source/Spinner14Source.js';
+
 import React from 'react';
 
 const spinnerDtoArray = [
@@ -197,14 +204,15 @@ const spinnerDtoArray = [
     css: spinner13CSS,
     javascript: spinner13Javascript
   }, 
-   //from here on, these are just fillers to test grid layout.
+   
   {
     id: 14, 
-    spinnerComponent:  <Spinner1 />,
-    html: spinner1HTML,
-    css: spinner1CSS,
-    javascript: spinner1Javascript
+    spinnerComponent:  <Spinner14 />,
+    html: spinner14HTML,
+    css: spinner14CSS,
+    javascript: spinner14Javascript
   }, 
+  //from here on, these are just fillers to test grid layout.
   {
     id: 15, 
     spinnerComponent:  <Spinner1 />,
