@@ -1,6 +1,8 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import NavBar from './NavBar';
 import Header from './Header';
+import ColorChange from './ColorChange';
 import SearchBar from './SearchBar';
 import Paginate from './Pagination';
 import SpinnerContainerList from './SpinnerContainerList';
@@ -14,19 +16,26 @@ import '../styles/Header.css';
 import '../styles/Pagination.css';
 import '../styles/Footer.css';
 
-const HomePage = () => (
-  <div>
-    <NavBar />
-    <Header />
-    <SearchBar />
-    <Paginate />
-    <SpinnerContainerList spinnerDtoArray={spinnerDtoArray}/>
-    <Paginate />
-    <Footer />
-  </div>
-);
+const HomePage = ({ spinnerColor }) => {
+    return (
+    <div>
+      <NavBar />
+      <Header />
+      <SearchBar />
+      <ColorChange />
+      <Paginate />
+      <SpinnerContainerList spinnerDtoArray={spinnerDtoArray(spinnerColor)} /> 
+      <Paginate />
+      <Footer />
+    </div>
+  );
+}
 
-export default HomePage;
+const mapStateToProps = (state) => ({
+  spinnerColor: state.colors.spinnerColor
+});
+
+export default connect(mapStateToProps)(HomePage);
 
 
 
