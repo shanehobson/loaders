@@ -5,7 +5,7 @@ export const spinner13HTML = `
     <div class="spinner13"></div>
 `;
 
-export const spinner13CSS = `
+export const spinner13CSS = spinnerColor => `
     .spinner13 {
         display: inline-block;
         position: relative;

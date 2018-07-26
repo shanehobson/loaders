@@ -15,8 +15,7 @@ export const spinner1HTML = `
 </div>
 `;
 
-export const spinner1CSS = spinnerColor => {
-  return `
+export const spinner1CSS = spinnerColor => `
   .sk-circle {
     margin: 25px;
     width: 40px;
@@ -139,6 +138,5 @@ export const spinner1CSS = spinnerColor => {
     }
   }
   `;
-} 
-
+  
 export const spinner1Javascript = 'import ddd from \'ddd\';\n\nclass Animator extends ddd {\nexport const ddd = "ddd"}';
