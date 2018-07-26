@@ -139,6 +139,34 @@ import {
   spinner20Javascript
 } from './source/Spinner20Source.js';
 
+import Spinner21 from './components/Spinner21.js';
+import {
+  spinner21HTML,
+  spinner21CSS,
+  spinner21Javascript
+} from './source/Spinner21Source.js';
+
+import Spinner22 from './components/Spinner22.js';
+import {
+  spinner22HTML,
+  spinner22CSS,
+  spinner22Javascript
+} from './source/Spinner22Source.js';
+
+import Spinner23 from './components/Spinner23.js';
+import {
+  spinner23HTML,
+  spinner23CSS,
+  spinner23Javascript
+} from './source/Spinner23Source.js';
+
+import Spinner24 from './components/Spinner24.js';
+import {
+  spinner24HTML,
+  spinner24CSS,
+  spinner24Javascript
+} from './source/Spinner24Source.js';
+
 import React from 'react';
 
 const spinnerDtoArray = spinnerColor => {
@@ -301,6 +329,38 @@ const spinnerDtoArray = spinnerColor => {
       html: spinner20HTML,
       css: spinner20CSS(spinnerColor),
       javascript: spinner20Javascript
+    },
+
+    {
+      id: 21, 
+      spinnerComponent:  <Spinner21 spinnerColor={spinnerColor} />,
+      html: spinner21HTML,
+      css: spinner21CSS(spinnerColor),
+      javascript: spinner21Javascript
+    },
+
+    {
+      id: 22, 
+      spinnerComponent:  <Spinner22 spinnerColor={spinnerColor} />,
+      html: spinner22HTML,
+      css: spinner22CSS(spinnerColor),
+      javascript: spinner22Javascript
+    },
+
+    {
+      id: 23, 
+      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
+      html: spinner23HTML,
+      css: spinner23CSS(spinnerColor),
+      javascript: spinner23Javascript
+    },
+
+    {
+      id: 24, 
+      spinnerComponent:  <Spinner24 spinnerColor={spinnerColor} />,
+      html: spinner24HTML,
+      css: spinner24CSS(spinnerColor),
+      javascript: spinner24Javascript
     }
   ];
 };
