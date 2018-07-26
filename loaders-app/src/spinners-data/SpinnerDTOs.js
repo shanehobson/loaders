@@ -306,7 +306,43 @@ const spinnerDtoArray = [
     html: spinner1HTML,
     css: spinner1CSS,
     javascript: spinner1Javascript
+  },
+  {
+    id: 25, 
+    spinnerComponent:  <Spinner1 />,
+    html: spinner1HTML,
+    css: spinner1CSS,
+    javascript: spinner1Javascript
+  }, 
+  {
+    id: 26, 
+    spinnerComponent:  <Spinner1 />,
+    html: spinner1HTML,
+    css: spinner1CSS,
+    javascript: spinner1Javascript
+  }, 
+  {
+    id: 27, 
+    spinnerComponent:  <Spinner1 />,
+    html: spinner1HTML,
+    css: spinner1CSS,
+    javascript: spinner1Javascript
+  }, 
+  {
+    id: 28, 
+    spinnerComponent:  <Spinner1 />,
+    html: spinner1HTML,
+    css: spinner1CSS,
+    javascript: spinner1Javascript
+  }, 
+  {
+    id: 29, 
+    spinnerComponent:  <Spinner1 />,
+    html: spinner1HTML,
+    css: spinner1CSS,
+    javascript: spinner1Javascript
   }
+
 
 ]
 
