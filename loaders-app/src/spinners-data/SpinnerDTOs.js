@@ -126,15 +126,15 @@ const spinnerDtoArray = spinnerColor => {
       id: 1, 
       spinnerComponent:  <Spinner1 spinnerColor={spinnerColor} />,
       html: spinner1HTML,
-      css: spinner1CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner1Javascript
-    }, 
+    },
     
     {
       id: 2, 
       spinnerComponent:  <Spinner2 spinnerColor={spinnerColor} />,
       html: spinner2HTML,
-      css: spinner2CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner2Javascript
     }, 
    
@@ -142,7 +142,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 3, 
       spinnerComponent:  <Spinner3 spinnerColor={spinnerColor} />,
       html: spinner3HTML,
-      css: spinner3CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner3Javascript
     },
   
@@ -150,7 +150,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 4, 
       spinnerComponent:  <Spinner4 spinnerColor={spinnerColor} />,
       html: spinner4HTML,
-      css: spinner4CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner4Javascript
     },
 
@@ -158,7 +158,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 5, 
       spinnerComponent:  <Spinner5 spinnerColor={spinnerColor} />,
       html: spinner5HTML,
-      css: spinner5CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner5Javascript
     },
 
@@ -166,7 +166,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 6, 
       spinnerComponent:  <Spinner6 spinnerColor={spinnerColor} />,
       html: spinner6HTML,
-      css: spinner6CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner6Javascript
     },
 
@@ -174,7 +174,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 7, 
       spinnerComponent:  <Spinner7 spinnerColor={spinnerColor} />,
       html: spinner7HTML,
-      css: spinner7CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner7Javascript
     },
 
@@ -182,7 +182,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 8, 
       spinnerComponent:  <Spinner8 spinnerColor={spinnerColor} />,
       html: spinner8HTML,
-      css: spinner8CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner8Javascript
     },
 
@@ -190,7 +190,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 9, 
       spinnerComponent:  <Spinner9 spinnerColor={spinnerColor} />,
       html: spinner9HTML,
-      css: spinner9CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner9Javascript
     },
     
@@ -198,7 +198,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 10, 
       spinnerComponent:  <Spinner10 spinnerColor={spinnerColor} />,
       html: spinner10HTML,
-      css: spinner10CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner10Javascript
     }, 
     
@@ -206,7 +206,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 11, 
       spinnerComponent:  <Spinner11 spinnerColor={spinnerColor} />,
       html: spinner11HTML,
-      css: spinner11CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner11Javascript
     }, 
   
@@ -214,7 +214,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 12, 
       spinnerComponent:  <Spinner12 spinnerColor={spinnerColor} />,
       html: spinner12HTML,
-      css: spinner12CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner12Javascript
     }, 
     
@@ -222,7 +222,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 13, 
       spinnerComponent:  <Spinner13 spinnerColor={spinnerColor} />,
       html: spinner13HTML,
-      css: spinner13CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner13Javascript
     }, 
     
@@ -230,7 +230,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 14, 
       spinnerComponent:  <Spinner14 spinnerColor={spinnerColor} />,
       html: spinner14HTML,
-      css: spinner14CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner14Javascript
     }, 
   
@@ -238,7 +238,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 15, 
       spinnerComponent:  <Spinner15 spinnerColor={spinnerColor} />,
       html: spinner15HTML,
-      css: spinner15CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner15Javascript
     }, 
     
@@ -246,7 +246,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 16, 
       spinnerComponent:  <Spinner16 spinnerColor={spinnerColor} />,
       html: spinner16HTML,
-      css: spinner16CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner16Javascript
     }, 
     
@@ -254,7 +254,7 @@ const spinnerDtoArray = spinnerColor => {
       id: 17, 
       spinnerComponent:  <Spinner17 spinnerColor={spinnerColor} />,
       html: spinner17HTML,
-      css: spinner17CSS,
+      css: spinner1CSS(spinnerColor),
       javascript: spinner17Javascript
     }
   ];
