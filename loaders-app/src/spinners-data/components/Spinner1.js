@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
 import Style from 'style-it';
-import '../styles/styles.scss';
 
 class Spinner1 extends Component {
 
     render() {
         const { spinnerColor } = this.props;
-        console.log(spinnerColor);
         return (
             <Style>
                 {`

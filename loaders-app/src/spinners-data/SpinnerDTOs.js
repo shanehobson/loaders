@@ -156,7 +156,7 @@ const spinnerDtoArray = spinnerColor => {
 
     {
       id: 5, 
-      spinnerComponent:  <Spinner5 />,
+      spinnerComponent:  <Spinner5 spinnerColor={spinnerColor} />,
       html: spinner5HTML,
       css: spinner5CSS,
       javascript: spinner5Javascript
@@ -164,7 +164,7 @@ const spinnerDtoArray = spinnerColor => {
 
     {
       id: 6, 
-      spinnerComponent:  <Spinner6 />,
+      spinnerComponent:  <Spinner6 spinnerColor={spinnerColor} />,
       html: spinner6HTML,
       css: spinner6CSS,
       javascript: spinner6Javascript
@@ -172,7 +172,7 @@ const spinnerDtoArray = spinnerColor => {
 
     {
       id: 7, 
-      spinnerComponent:  <Spinner7 />,
+      spinnerComponent:  <Spinner7 spinnerColor={spinnerColor} />,
       html: spinner7HTML,
       css: spinner7CSS,
       javascript: spinner7Javascript
@@ -180,7 +180,7 @@ const spinnerDtoArray = spinnerColor => {
 
     {
       id: 8, 
-      spinnerComponent:  <Spinner8 />,
+      spinnerComponent:  <Spinner8 spinnerColor={spinnerColor} />,
       html: spinner8HTML,
       css: spinner8CSS,
       javascript: spinner8Javascript
@@ -188,7 +188,7 @@ const spinnerDtoArray = spinnerColor => {
 
     {
       id: 9, 
-      spinnerComponent:  <Spinner9 />,
+      spinnerComponent:  <Spinner9 spinnerColor={spinnerColor} />,
       html: spinner9HTML,
       css: spinner9CSS,
       javascript: spinner9Javascript
@@ -196,7 +196,7 @@ const spinnerDtoArray = spinnerColor => {
     
     {
       id: 10, 
-      spinnerComponent:  <Spinner10 />,
+      spinnerComponent:  <Spinner10 spinnerColor={spinnerColor} />,
       html: spinner10HTML,
       css: spinner10CSS,
       javascript: spinner10Javascript
@@ -204,7 +204,7 @@ const spinnerDtoArray = spinnerColor => {
     
     {
       id: 11, 
-      spinnerComponent:  <Spinner11 />,
+      spinnerComponent:  <Spinner11 spinnerColor={spinnerColor} />,
       html: spinner11HTML,
       css: spinner11CSS,
       javascript: spinner11Javascript
@@ -212,7 +212,7 @@ const spinnerDtoArray = spinnerColor => {
   
     {
       id: 12, 
-      spinnerComponent:  <Spinner12 />,
+      spinnerComponent:  <Spinner12 spinnerColor={spinnerColor} />,
       html: spinner12HTML,
       css: spinner12CSS,
       javascript: spinner12Javascript
@@ -220,7 +220,7 @@ const spinnerDtoArray = spinnerColor => {
     
     {
       id: 13, 
-      spinnerComponent:  <Spinner13 />,
+      spinnerComponent:  <Spinner13 spinnerColor={spinnerColor} />,
       html: spinner13HTML,
       css: spinner13CSS,
       javascript: spinner13Javascript
@@ -228,7 +228,7 @@ const spinnerDtoArray = spinnerColor => {
     
     {
       id: 14, 
-      spinnerComponent:  <Spinner14 />,
+      spinnerComponent:  <Spinner14 spinnerColor={spinnerColor} />,
       html: spinner14HTML,
       css: spinner14CSS,
       javascript: spinner14Javascript
@@ -236,7 +236,7 @@ const spinnerDtoArray = spinnerColor => {
   
     {
       id: 15, 
-      spinnerComponent:  <Spinner15 />,
+      spinnerComponent:  <Spinner15 spinnerColor={spinnerColor} />,
       html: spinner15HTML,
       css: spinner15CSS,
       javascript: spinner15Javascript
@@ -244,7 +244,7 @@ const spinnerDtoArray = spinnerColor => {
     
     {
       id: 16, 
-      spinnerComponent:  <Spinner16 />,
+      spinnerComponent:  <Spinner16 spinnerColor={spinnerColor} />,
       html: spinner16HTML,
       css: spinner16CSS,
       javascript: spinner16Javascript
@@ -252,60 +252,10 @@ const spinnerDtoArray = spinnerColor => {
     
     {
       id: 17, 
-      spinnerComponent:  <Spinner17 />,
+      spinnerComponent:  <Spinner17 spinnerColor={spinnerColor} />,
       html: spinner17HTML,
       css: spinner17CSS,
       javascript: spinner17Javascript
-    }, 
-    //from here on, these are just fillers to test grid layout.
-    {
-      id: 18, 
-      spinnerComponent:  <Spinner1 />,
-      html: spinner1HTML,
-      css: spinner1CSS,
-      javascript: spinner1Javascript
-    }, 
-    {
-      id: 19, 
-      spinnerComponent:  <Spinner1 />,
-      html: spinner1HTML,
-      css: spinner1CSS,
-      javascript: spinner1Javascript
-    }, 
-    {
-      id: 20, 
-      spinnerComponent:  <Spinner1 />,
-      html: spinner1HTML,
-      css: spinner1CSS,
-      javascript: spinner1Javascript
-    }, 
-    {
-      id: 21, 
-      spinnerComponent:  <Spinner1 />,
-      html: spinner1HTML,
-      css: spinner1CSS,
-      javascript: spinner1Javascript
-    }, 
-    {
-      id: 22, 
-      spinnerComponent:  <Spinner1 />,
-      html: spinner1HTML,
-      css: spinner1CSS,
-      javascript: spinner1Javascript
-    }, 
-    {
-      id: 23, 
-      spinnerComponent:  <Spinner1 />,
-      html: spinner1HTML,
-      css: spinner1CSS,
-      javascript: spinner1Javascript
-    }, 
-    {
-      id: 24, 
-      spinnerComponent:  <Spinner1 />,
-      html: spinner1HTML,
-      css: spinner1CSS,
-      javascript: spinner1Javascript
     }
   ];
 };
