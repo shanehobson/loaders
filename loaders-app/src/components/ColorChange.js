@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { SketchPicker } from 'react-color'
 import { changeSpinnerColor } from '../actions/colors';
 
 class ColorChange extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            color: '',
+            color: props.spinnerColor,
             error: ''
         }
     }
@@ -27,26 +28,46 @@ class ColorChange extends Component {
         }
     };
 
+    onColorPickerChange = (color) => {
+        this.setState(() => ({ color: color.hex }));
+    }
+
+    onColorPickerSubmit = (color) => {
+        this.setState(() => ({ error: '' }));
+        this.props.onSubmit(color.hex);
+    }
+
     render() {
         return (
-            <form className="ColorChange-colorChangeForm" onSubmit={this.onSubmit}>
-                {this.state.error && <p className="ColorChange-colorChangeFormError">{this.state.error}</p>}
-                <input 
-                    type="text"
-                    className="ColorChange-colorChangeTextInput"
-                    placeholder=""
-                    autoFocus
-                    value={this.state.color}
-                    onChange={this.onColorChange}
+            <div>
+                <form className="ColorChange-colorChangeForm" onSubmit={this.onSubmit}>
+                    {this.state.error && <p className="ColorChange-colorChangeFormError">{this.state.error}</p>}
+                    <input 
+                        type="text"
+                        className="ColorChange-colorChangeTextInput"
+                        placeholder=""
+                        autoFocus
+                        value={this.state.color}
+                        onChange={this.onColorChange}
+                    />
+                    <input type="submit" value="Submit" />
+                </form>
+                <SketchPicker
+                    color={this.props.spinnerColor}
+                    onChange={this.onColorPickerChange}
+                    onChangeComplete={this.onColorPickerSubmit}
                 />
-                <input type="submit" value="Submit" />
-            </form>
+            </div>
         )
     }
 }
+
+const mapStateToProps = (state) => ({
+    spinnerColor: state.colors.spinnerColor
+});
 
 const mapDispatchToProps = (dispatch) => ({
     onSubmit: (color) => dispatch(changeSpinnerColor(color))
 });
 
-export default connect(undefined, mapDispatchToProps)(ColorChange);
+export default connect(mapStateToProps, mapDispatchToProps)(ColorChange);

@@ -21,7 +21,6 @@ const HomePage = ({ spinnerColor }) => {
     <div>
       <NavBar />
       <Header />
-      <SearchBar />
       <ColorChange />
       <Paginate />
       <SpinnerContainerList spinnerDtoArray={spinnerDtoArray(spinnerColor)} /> 
