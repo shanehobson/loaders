@@ -7,7 +7,7 @@ export const spinner10HTML = `
     </div>
 `;
 
-export const spinner10CSS = `
+export const spinner10CSS = spinnerColor => `
     .spinner10-container{
         position: relative;
         display: flex;

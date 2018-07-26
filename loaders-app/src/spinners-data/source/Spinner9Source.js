@@ -5,7 +5,7 @@ export const spinner9HTML = `
     <div className="spinner9"></div>
 `;
 
-export const spinner9CSS = `
+export const spinner9CSS = spinnerColor => `
     .spinner9 {
         display: inline-block;
         width: 100px;

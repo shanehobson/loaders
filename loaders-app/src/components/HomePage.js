@@ -10,6 +10,7 @@ import Footer from './Footer';
 import spinnerDtoArray from '../spinners-data/SpinnerDTOs';
 import '../styles/NavBar.css';
 import '../styles/SpinnerContainer.css';
+import '../styles/ColorChange.css';
 import '../styles/DialogTabContent.css';
 import '../styles/LayoutStyles.css';
 import '../styles/Header.css';
@@ -21,7 +22,6 @@ const HomePage = ({ spinnerColor }) => {
     <div>
       <NavBar />
       <Header />
-      <SearchBar />
       <ColorChange />
       <Paginate />
       <SpinnerContainerList spinnerDtoArray={spinnerDtoArray(spinnerColor)} /> 

@@ -11,7 +11,7 @@ export const spinner12HTML = `
     </div>
 `;
 
-export const spinner12CSS = `
+export const spinner12CSS = spinnerColor => `
 .spinner12 {
     margin: 25px;
     width: 50px;
