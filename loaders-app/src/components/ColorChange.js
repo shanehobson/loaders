@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { SketchPicker } from 'react-color'
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
 import { changeSpinnerColor } from '../actions/colors';
 
 class ColorChange extends Component {
