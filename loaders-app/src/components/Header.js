@@ -12,7 +12,7 @@ const Header = () => (
             </Grid>
             <Grid item className='Header-headerSubtitle'>
                 <Typography variant='display1' color='inherit'>
-                    Visually engaging loading animations designed to create a compelling user experience.
+                    We provide free and open source loading animations to help developers create a compelling user experience.
                 </Typography>
             </Grid>
         </Grid>
