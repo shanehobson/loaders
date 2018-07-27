@@ -17,12 +17,11 @@ const NavBar = () => {
                 <Toolbar>
                     <Hidden xsDown>
                         <Typography variant='display1' color='inherit' className='NavBar-flex'>
-                            Website Icon
+                            <a href='#' className='Navbar-navBarIconLink'>LoaderGallery.com</a>
                         </Typography>
                     </Hidden>
-                    <div className='NavBar-navLinks'>
-                        <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>Home</Typography></Button>
-                        <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>About</Typography></Button>
+                    <div className='Navbar-navLinks'>
+                        <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>About Us</Typography></Button>
                         <Button color='inherit' className='NavBar-navLink'><Typography color='inherit' variant='headline'>Contact</Typography></Button>
                     </div>
                 </Toolbar>

@@ -10,6 +10,7 @@ import Footer from './Footer';
 import spinnerDtoArray from '../spinners-data/SpinnerDTOs';
 import '../styles/NavBar.css';
 import '../styles/SpinnerContainer.css';
+import '../styles/ColorChange.css';
 import '../styles/DialogTabContent.css';
 import '../styles/LayoutStyles.css';
 import '../styles/Header.css';
@@ -37,6 +38,7 @@ class HomePage extends Component {
     const spinnerDtoArray = spinnerDtoArray(this.props.spinnerColor)
 
     return (
+<<<<<<< HEAD
       <div>
         <NavBar />
         <Header />
@@ -49,6 +51,18 @@ class HomePage extends Component {
       </div>
     );
   }
+=======
+    <div>
+      <NavBar />
+      <Header />
+      <ColorChange />
+      <Paginate />
+      <SpinnerContainerList spinnerDtoArray={spinnerDtoArray(spinnerColor)} /> 
+      <Paginate />
+      <Footer />
+    </div>
+  );
+>>>>>>> master
 }
 
 const mapStateToProps = (state) => ({

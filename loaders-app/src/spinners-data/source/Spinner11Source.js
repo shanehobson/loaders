@@ -1,6 +1,3 @@
-const spinnerConfig = require('../SpinnerConfig.json');
-const spinnerColor = spinnerConfig.colors.spinnerColor;
-
 export const spinner11HTML = `
     <div class="spinner11">
         <div class="circle1"></div>
@@ -8,7 +5,7 @@ export const spinner11HTML = `
     </div>
 `;
 
-export const spinner11CSS = `
+export const spinner11CSS = spinnerColor => `
 .spinner11 {
     margin: 25px;
     width: 40px;

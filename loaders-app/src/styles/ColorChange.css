@@ -1,0 +1,22 @@
+.ColorChange-colorChangeContainer {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.ColorChange-colorChangeItem {
+   margin: 0 auto;
+   padding-top: 2rem;
+}
+
+.ColorChange-colorChangeInstructions {
+    padding: 3rem 0 5rem 3rem;
+}
+
+.ColorChange-colorChangeInstructions ul {
+    list-style-type: disc;
+}
+

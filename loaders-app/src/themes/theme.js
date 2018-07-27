@@ -1,9 +1,9 @@
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import { grey, blue, cyan, teal } from '@material-ui/core/colors';
+import { grey, teal, blue } from '@material-ui/core/colors';
 
 const customMuiTheme = createMuiTheme({
     palette: {
-        primary: teal,
+        primary: blue,
         secondary: grey
     }
 });

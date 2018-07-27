@@ -5,8 +5,7 @@ export const spinner2HTML = `
 </div>
 `;
 
-export const spinner2CSS = spinnerColor => {
-  return `
+export const spinner2CSS = spinnerColor => `
   .spinner2 {
     margin: 25px;
     width: 40px;
@@ -55,8 +54,6 @@ export const spinner2CSS = spinnerColor => {
       transform: rotate(-360deg);
       -webkit-transform: rotate(-360deg);
     }
-}
-  `
-} 
+}`;
 
 export const spinner2Javascript = 'import ddd from \'ddd\';\n\nclass Animator extends ddd {\nexport const ddd = "ddd"}';

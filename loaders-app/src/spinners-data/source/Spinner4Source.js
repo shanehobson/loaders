@@ -1,12 +1,8 @@
-const spinnerConfig = require('../SpinnerConfig.json');
-const spinnerColor = spinnerConfig.colors.spinnerColor;
-
-
 export const spinner4HTML = `
     <div className="spinner4"></div>
 `;
 
-export const spinner4CSS = `
+export const spinner4CSS = spinnerColor => `
     @keyframes spinner4 {
         0% {
             transform: translate3d(-50%, -50%, 0) rotate(0deg);
