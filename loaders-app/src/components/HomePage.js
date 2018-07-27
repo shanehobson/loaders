@@ -38,7 +38,6 @@ class HomePage extends Component {
     const spinnerDtoArray = spinnerDtoArray(this.props.spinnerColor)
 
     return (
-<<<<<<< HEAD
       <div>
         <NavBar />
         <Header />
@@ -51,18 +50,6 @@ class HomePage extends Component {
       </div>
     );
   }
-=======
-    <div>
-      <NavBar />
-      <Header />
-      <ColorChange />
-      <Paginate />
-      <SpinnerContainerList spinnerDtoArray={spinnerDtoArray(spinnerColor)} /> 
-      <Paginate />
-      <Footer />
-    </div>
-  );
->>>>>>> master
 }
 
 const mapStateToProps = (state) => ({
