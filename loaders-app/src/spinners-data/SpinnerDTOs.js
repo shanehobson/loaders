@@ -301,7 +301,7 @@ const spinnerDtoArray = spinnerColor => {
     
     {
       id: 17, 
-      spinnerComponent:  <Spinner17 />,
+      spinnerComponent:  <Spinner17 spinnerColor={spinnerColor} />,
       html: spinner17HTML,
       css: spinner17CSS(spinnerColor),
       javascript: spinner17Javascript
