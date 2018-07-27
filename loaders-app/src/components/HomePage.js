@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 import Header from './Header';
 import ColorChange from './ColorChange';
 import SearchBar from './SearchBar';
-import Paginate from './Pagination';
+import Paginate from './Paginate';
 import SpinnerContainerList from './SpinnerContainerList';
 import Footer from './Footer';
 import spinnerDtoArray from '../spinners-data/SpinnerDTOs';
@@ -21,21 +21,23 @@ const spinnersPerPage = 24
 
 class HomePage extends Component {
 
-  getSublistForPage(page, spinnerDtoArray) {
+  getSublistForPage = (page, spinnerDtos) => {
     var startIndex = (page-1)*spinnersPerPage;
     var endIndex = startIndex+(spinnersPerPage-1);
 
-    if (endIndex > spinnerDtoArray.length-1) (
-      endIndex = spinnerDtoArray.length-1
-    )
+    if (endIndex > spinnerDtos.length-1) {
+      endIndex = spinnerDtos.length-1
+    }
 
-    return Array,copyOfRange(spinnerDtoArray, startIndex, endIndex+1)
+    return spinnerDtos.slice(startIndex, endIndex+1);
 
   }
     
   render() {
 
-    const spinnerDtoArray = spinnerDtoArray(this.props.spinnerColor)
+    const spinnerDtos = spinnerDtoArray(this.props.spinnerColor)
+
+    const pageCount = Math.ceil((spinnerDtos.length*1.0)/spinnersPerPage);
 
     return (
       <div>
@@ -43,9 +45,8 @@ class HomePage extends Component {
         <Header />
         <SearchBar />
         <ColorChange />
-        <Paginate pageCount={Math.ceil( spinnerDtoArray.length/spinnersPerPage )} />
-        <SpinnerContainerList spinnerDtoArray={getSublistForPage(this.props.page, spinnerDtoArray)} /> 
-        <Paginate />
+        <SpinnerContainerList spinnerDtoArray={this.getSublistForPage(this.props.page, spinnerDtos)} /> 
+        <Paginate pageCount={pageCount}/>
         <Footer />
       </div>
     );

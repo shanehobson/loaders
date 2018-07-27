@@ -361,7 +361,63 @@ const spinnerDtoArray = spinnerColor => {
       html: spinner24HTML,
       css: spinner24CSS(spinnerColor),
       javascript: spinner24Javascript
-    }
+    },
+    /////// from here down are placeholder components
+    {
+      id: 25, 
+      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
+      html: spinner23HTML,
+      css: spinner23CSS(spinnerColor),
+      javascript: spinner23Javascript
+    },,
+
+    {
+      id: 26, 
+      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
+      html: spinner23HTML,
+      css: spinner23CSS(spinnerColor),
+      javascript: spinner23Javascript
+    },,
+
+    {
+      id: 27, 
+      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
+      html: spinner23HTML,
+      css: spinner23CSS(spinnerColor),
+      javascript: spinner23Javascript
+    },,
+
+    {
+      id: 28, 
+      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
+      html: spinner23HTML,
+      css: spinner23CSS(spinnerColor),
+      javascript: spinner23Javascript
+    },,
+
+    {
+      id: 29, 
+      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
+      html: spinner23HTML,
+      css: spinner23CSS(spinnerColor),
+      javascript: spinner23Javascript
+    },,
+
+    {
+      id: 30, 
+      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
+      html: spinner23HTML,
+      css: spinner23CSS(spinnerColor),
+      javascript: spinner23Javascript
+    },,
+
+    {
+      id: 31, 
+      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
+      html: spinner23HTML,
+      css: spinner23CSS(spinnerColor),
+      javascript: spinner23Javascript
+    },
   ];
 };
 
