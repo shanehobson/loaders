@@ -191,6 +191,18 @@ import {
   spinner28CSS
 } from './source/Spinner28Source.js';
 
+import Spinner29 from './components/Spinner29.js';
+import {
+  spinner29HTML,
+  spinner29CSS
+} from './source/Spinner29Source.js';
+
+import Spinner30 from './components/Spinner30.js';
+import {
+  spinner30HTML,
+  spinner30CSS
+} from './source/Spinner30Source.js';
+
 import React from 'react';
 
 const spinnerDtoArray = spinnerColor => {
@@ -414,23 +426,21 @@ const spinnerDtoArray = spinnerColor => {
       html: spinner28HTML,
       css: spinner28CSS(spinnerColor)
     },
-    /////// from here down are placeholder components
+
     {
       id: 29, 
-      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
-      html: spinner23HTML,
-      css: spinner23CSS(spinnerColor),
-      javascript: spinner23Javascript
+      spinnerComponent:  <Spinner29 spinnerColor={spinnerColor} />,
+      html: spinner29HTML,
+      css: spinner29CSS(spinnerColor)
     },
-
+    
     {
       id: 30, 
-      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
-      html: spinner23HTML,
-      css: spinner23CSS(spinnerColor),
-      javascript: spinner23Javascript
+      spinnerComponent:  <Spinner30 spinnerColor={spinnerColor} />,
+      html: spinner30HTML,
+      css: spinner30CSS(spinnerColor)
     },
-
+/////// from here down are placeholder components
     {
       id: 31, 
       spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
