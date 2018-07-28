@@ -167,6 +167,30 @@ import {
   spinner24Javascript
 } from './source/Spinner24Source.js';
 
+import Spinner25 from './components/Spinner25.js';
+import {
+  spinner25HTML,
+  spinner25CSS
+} from './source/Spinner25Source.js';
+
+import Spinner26 from './components/Spinner26.js';
+import {
+  spinner26HTML,
+  spinner26CSS
+} from './source/Spinner26Source.js';
+
+import Spinner27 from './components/Spinner27.js';
+import {
+  spinner27HTML,
+  spinner27CSS
+} from './source/Spinner27Source.js';
+
+import Spinner28 from './components/Spinner28.js';
+import {
+  spinner28HTML,
+  spinner28CSS
+} from './source/Spinner28Source.js';
+
 import React from 'react';
 
 const spinnerDtoArray = spinnerColor => {
@@ -362,46 +386,42 @@ const spinnerDtoArray = spinnerColor => {
       css: spinner24CSS(spinnerColor),
       javascript: spinner24Javascript
     },
-    /////// from here down are placeholder components
+    
     {
       id: 25, 
-      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
-      html: spinner23HTML,
-      css: spinner23CSS(spinnerColor),
-      javascript: spinner23Javascript
-    },,
+      spinnerComponent:  <Spinner25 spinnerColor={spinnerColor} />,
+      html: spinner25HTML,
+      css: spinner25CSS(spinnerColor)
+    },
 
     {
       id: 26, 
-      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
-      html: spinner23HTML,
-      css: spinner23CSS(spinnerColor),
-      javascript: spinner23Javascript
-    },,
-
+      spinnerComponent:  <Spinner26 spinnerColor={spinnerColor} />,
+      html: spinner26HTML,
+      css: spinner26CSS(spinnerColor)
+    },
+    
     {
       id: 27, 
-      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
-      html: spinner23HTML,
-      css: spinner23CSS(spinnerColor),
-      javascript: spinner23Javascript
-    },,
+      spinnerComponent:  <Spinner27 spinnerColor={spinnerColor} />,
+      html: spinner27HTML,
+      css: spinner27CSS(spinnerColor)
+    },
 
     {
       id: 28, 
-      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
-      html: spinner23HTML,
-      css: spinner23CSS(spinnerColor),
-      javascript: spinner23Javascript
-    },,
-
+      spinnerComponent:  <Spinner28 spinnerColor={spinnerColor} />,
+      html: spinner28HTML,
+      css: spinner28CSS(spinnerColor)
+    },
+    /////// from here down are placeholder components
     {
       id: 29, 
       spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
       html: spinner23HTML,
       css: spinner23CSS(spinnerColor),
       javascript: spinner23Javascript
-    },,
+    },
 
     {
       id: 30, 
@@ -409,7 +429,7 @@ const spinnerDtoArray = spinnerColor => {
       html: spinner23HTML,
       css: spinner23CSS(spinnerColor),
       javascript: spinner23Javascript
-    },,
+    },
 
     {
       id: 31, 
