@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import NavBar from './NavBar';
 import Header from './Header';
 import ColorChange from './ColorChange';
-import SearchBar from './SearchBar';
 import Paginate from './Paginate';
 import SpinnerContainerList from './SpinnerContainerList';
 import Footer from './Footer';
@@ -43,7 +42,6 @@ class HomePage extends Component {
       <div>
         <NavBar />
         <Header />
-        <SearchBar />
         <ColorChange />
         <SpinnerContainerList spinnerDtoArray={this.getSublistForPage(this.props.page, spinnerDtos)} /> 
         <Paginate pageCount={pageCount}/>
