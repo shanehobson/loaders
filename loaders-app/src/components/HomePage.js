@@ -22,6 +22,7 @@ class HomePage extends Component {
 
   getSublistForPage = (page, spinnerDtos) => {
     var startIndex = (page-1)*spinnersPerPage;
+    //var startIndex = 25; // use this when you want second page of spinners to automatically load (for dev purposes)
     var endIndex = startIndex+(spinnersPerPage-1);
 
     if (endIndex > spinnerDtos.length-1) {

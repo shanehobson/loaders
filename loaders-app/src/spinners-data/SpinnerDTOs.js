@@ -191,6 +191,30 @@ import {
   spinner28CSS
 } from './source/Spinner28Source.js';
 
+import Spinner29 from './components/Spinner29.js';
+import {
+  spinner29HTML,
+  spinner29CSS
+} from './source/Spinner29Source.js';
+
+import Spinner30 from './components/Spinner30.js';
+import {
+  spinner30HTML,
+  spinner30CSS
+} from './source/Spinner30Source.js';
+
+import Spinner31 from './components/Spinner31.js';
+import {
+  spinner31HTML,
+  spinner31CSS
+} from './source/Spinner31Source.js';
+
+import Spinner32 from './components/Spinner32.js';
+import {
+  spinner32HTML,
+  spinner32CSS
+} from './source/Spinner32Source.js';
+
 import React from 'react';
 
 const spinnerDtoArray = spinnerColor => {
@@ -414,30 +438,34 @@ const spinnerDtoArray = spinnerColor => {
       html: spinner28HTML,
       css: spinner28CSS(spinnerColor)
     },
-    /////// from here down are placeholder components
-    {
-      id: 29, 
-      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
-      html: spinner23HTML,
-      css: spinner23CSS(spinnerColor),
-      javascript: spinner23Javascript
-    },
 
     {
+      id: 29, 
+      spinnerComponent:  <Spinner29 spinnerColor={spinnerColor} />,
+      html: spinner29HTML,
+      css: spinner29CSS(spinnerColor)
+    },
+    
+    {
       id: 30, 
-      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
-      html: spinner23HTML,
-      css: spinner23CSS(spinnerColor),
-      javascript: spinner23Javascript
+      spinnerComponent:  <Spinner30 spinnerColor={spinnerColor} />,
+      html: spinner30HTML,
+      css: spinner30CSS(spinnerColor)
     },
 
     {
       id: 31, 
-      spinnerComponent:  <Spinner23 spinnerColor={spinnerColor} />,
-      html: spinner23HTML,
-      css: spinner23CSS(spinnerColor),
-      javascript: spinner23Javascript
+      spinnerComponent:  <Spinner31 spinnerColor={spinnerColor} />,
+      html: spinner31HTML,
+      css: spinner31CSS(spinnerColor)
     },
+
+    {
+      id: 32, 
+      spinnerComponent:  <Spinner32 spinnerColor={spinnerColor} />,
+      html: spinner32HTML,
+      css: spinner32CSS(spinnerColor)
+    }
   ];
 };
 
