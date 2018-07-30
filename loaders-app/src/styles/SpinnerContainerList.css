@@ -1,0 +1,11 @@
+.SpinnerContainerList-container {
+    text-align: center;
+}
+
+.SpinnerContainerList-gridContainer {
+    display:inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    max-width: 830px;
+}
