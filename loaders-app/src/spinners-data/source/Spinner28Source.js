@@ -1,9 +1,9 @@
 export const spinner28HTML = `
-<div className="spinner28-container">
-    <div className="spinner28-dot1" />
-    <div className="spinner28-dot2" />
-    <div className="spinner28-dot3" />
-    <div className="spinner28-dot4" />
+<div class="spinner28-container">
+    <div class="spinner28-dot1" />
+    <div class="spinner28-dot2" />
+    <div class="spinner28-dot3" />
+    <div class="spinner28-dot4" />
 </div>
 `;
 

@@ -20,6 +20,7 @@ export const spinner11CSS = spinnerColor => `
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 50%;
     
     -webkit-animation: sk-circlemove 1.8s infinite ease-in-out;
     animation: sk-circlemove 1.8s infinite ease-in-out;
