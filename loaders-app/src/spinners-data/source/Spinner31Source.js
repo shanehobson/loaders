@@ -53,74 +53,74 @@ export const spinner31CSS = spinnerColor => `
 #altcircularG_1{
     left:0;
     top:23px;
-    animation-delay:0.41s;
-        -o-animation-delay:0.41s;
-        -ms-animation-delay:0.41s;
-        -webkit-animation-delay:0.41s;
-        -moz-animation-delay:0.41s;
-}
-#altcircularG_2{
-    left:6px;
-    top:6px;
-    animation-delay:0.55s;
-        -o-animation-delay:0.55s;
-        -ms-animation-delay:0.55s;
-        -webkit-animation-delay:0.55s;
-        -moz-animation-delay:0.55s;
-}
-#altcircularG_3{
-    top:0;
-    left:23px;
-    animation-delay:0.69s;
-        -o-animation-delay:0.69s;
-        -ms-animation-delay:0.69s;
-        -webkit-animation-delay:0.69s;
-        -moz-animation-delay:0.69s;
-}
-#altcircularG_4{
-    right:6px;
-    top:6px;
-    animation-delay:0.83s;
-        -o-animation-delay:0.83s;
-        -ms-animation-delay:0.83s;
-        -webkit-animation-delay:0.83s;
-        -moz-animation-delay:0.83s;
-}
-#altcircularG_5{
-    right:0;
-    top:23px;
     animation-delay:0.97s;
         -o-animation-delay:0.97s;
         -ms-animation-delay:0.97s;
         -webkit-animation-delay:0.97s;
         -moz-animation-delay:0.97s;
 }
-#altcircularG_6{
-    right:6px;
-    bottom:6px;
-    animation-delay:1.1s;
-        -o-animation-delay:1.1s;
-        -ms-animation-delay:1.1s;
-        -webkit-animation-delay:1.1s;
-        -moz-animation-delay:1.1s;
-}
-#altcircularG_7{
-    left:23px;
-    bottom:0;
+#altcircularG_2{
+    left:6px;
+    top:6px;
     animation-delay:1.24s;
         -o-animation-delay:1.24s;
         -ms-animation-delay:1.24s;
         -webkit-animation-delay:1.24s;
         -moz-animation-delay:1.24s;
 }
-#altcircularG_8{
-    left:6px;
-    bottom:6px;
+#altcircularG_3{
+    top:0;
+    left:23px;
+    animation-delay:0.55s;
+        -o-animation-delay:0.55s;
+        -ms-animation-delay:0.55s;
+        -webkit-animation-delay:0.55s;
+        -moz-animation-delay:0.55s;
+}
+#altcircularG_4{
+    right:6px;
+    top:6px;
+    animation-delay:1.1s;
+        -o-animation-delay:1.1s;
+        -ms-animation-delay:1.1s;
+        -webkit-animation-delay:1.1s;
+        -moz-animation-delay:1.1s;
+}
+#altcircularG_5{
+    right:0;
+    top:23px;
     animation-delay:1.38s;
         -o-animation-delay:1.38s;
         -ms-animation-delay:1.38s;
         -webkit-animation-delay:1.38s;
         -moz-animation-delay:1.38s;
+}
+#altcircularG_6{
+    right:6px;
+    bottom:6px;
+    animation-delay:0.41s;
+        -o-animation-delay:0.41s;
+        -ms-animation-delay:0.41s;
+        -webkit-animation-delay:0.41s;
+        -moz-animation-delay:0.41s;
+}
+#altcircularG_7{
+    left:23px;
+    bottom:0;
+    animation-delay:.83s;
+        -o-animation-delay:.83s;
+        -ms-animation-delay:.83s;
+        -webkit-animation-delay:.83s;
+        -moz-animation-delay:.83s;
+}
+#altcircularG_8{
+    left:6px;
+    bottom:6px;
+    animation-delay:0.69s;
+        -o-animation-delay:0.69s;
+        -ms-animation-delay:0.69s;
+        -webkit-animation-delay:0.69s;
+        -moz-animation-delay:0.69s;
 }
 
 @keyframes bounce_altcircularG{

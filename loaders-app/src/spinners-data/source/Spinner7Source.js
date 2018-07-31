@@ -1,5 +1,5 @@
 export const spinner7HTML = `
-<div className="spinner7"><div></div><div></div><div></div><div></div></div>
+<div class="spinner7"><div></div><div></div><div></div><div></div></div>
 `;
 
 export const spinner7CSS = spinnerColor =>  `
