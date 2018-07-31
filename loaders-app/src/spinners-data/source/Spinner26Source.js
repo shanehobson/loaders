@@ -1,7 +1,7 @@
 export const spinner26HTML = `
 <div class="spinner26-container">
-  <div class="spinner26-dot1" />
-  <div class="spinner26-dot2" />
+  <div class="spinner26-dot1"></div>
+  <div class="spinner26-dot2"></div>
 </div>
 `;
 
