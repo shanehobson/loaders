@@ -28,7 +28,7 @@ class ColorChange extends Component {
     render() {
         return (
             <Grid container justify='center' alignItems='center' className='container'>
-                <Grid item xs={7} className='ColorChange-colorChangeInstructions'>
+                <Grid item sm={7} className='ColorChange-colorChangeInstructions'>
                     <Typography variant='display2' align='center'>
                         Instructions
                     </Typography>
@@ -40,7 +40,7 @@ class ColorChange extends Component {
                         </ul>
                     </Typography>
                 </Grid>
-                <Grid item xs={5}>
+                <Grid item sm={5}>
                     <div className='container ColorChange-colorChangeContainer'>
                         <SketchPicker
                             className='ColorChange-colorChangeItem'
