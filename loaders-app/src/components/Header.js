@@ -6,9 +6,11 @@ const Header = () => (
     <div className='Header-headerContainer'>
         <Grid container direction='column' justify='space-around' alignItems='center' className='Header-gridContainer'>
             <Grid item>
-                <Typography variant='display4' color='primary'>
-                    <span className='Header-headerSpan'>LoaderGallery</span><span className='Header-headerTitle'>.com</span>
-                </Typography>
+                <div className='Header-titleContainer'>
+                    <Typography variant='display4' color='primary'>
+                        <span className='Header-headerSpan'>LoaderGallery</span><span className='Header-headerTitle'>.com</span>
+                    </Typography>
+                </div>
             </Grid>
             <Grid item className='Header-headerSubtitle'>
                 <Typography variant='display1' color='inherit'>

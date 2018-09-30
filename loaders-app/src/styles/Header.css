@@ -25,3 +25,10 @@
         padding-top: 3rem;
     }
 }
+
+
+@media (max-width: 30rem) {
+    .Header-titleContainer {
+        display: none;
+    }
+}
